@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    can be easy to compare two files.
+	if previous version works well, it is easier to find the problem of newer version.
+	looking chainging log, it is easier to find where the problem is happened.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Analyzing frequently-happening mistakes becomes easier.
+	On collaborating, it is easier to know who worked on some portions.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manual
+	- Can determine when to commit.
+	- Can declare the logical increment.
+	- Quite redundant.
+	
+	Autimatically
+	- Don't have to think about commiting.
+	- Convenient.
+	- Each every single changes can be committed, and log can be way too long.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is specific system for coding and developing.
+	In source code, multiples of files can be strongly related.
+	Others are not specific system for doing something, so they don't have to care coding situations.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log is used for tracking the changing history.
+	git diff is used for comparing two commits and see what are the differences.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    To compare each versions, the point when the bug is introduced can be examined easily.
+	After finding the bug-introducing version, then see the changes to find the exace cause of the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    to do version control
+	explore the old versions of source code.
